@@ -9,7 +9,7 @@ int main()
     char Name[50];
 
     printf("Enter your name:\n");
-    scanf("%s", &Name);
+    scanf("%s", &Name);                  // %s is used for string input 
 
     printf("Your name is %s.\n", Name);
 

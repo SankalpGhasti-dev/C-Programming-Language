@@ -2,19 +2,11 @@
 
 int main()
 {
-    int arr[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int *ptr = arr;
+    // ptr means address and *ptr means value at that address.
 
-    for (int i = 0; i < 10; i++)
-    {
-        printf("Enter %d Number:\t\n", i);
-        scanf("%d", &arr[i]);
-    }
+    printf("The value at address %u is %d.\n", ptr + 2, *(ptr + 2));
 
-    for (int i = 0; i < 10; i++)
-    {
-        printf("The value of %d Number is %d.\n", i, &arr[i]);
-        i++;
-    }
-
-    return 0;
+    // ptr+3 means address of 4th element and *(ptr+3) means value at that address.
 }
