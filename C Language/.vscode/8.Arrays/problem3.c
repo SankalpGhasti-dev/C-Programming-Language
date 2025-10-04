@@ -5,10 +5,8 @@ int main()
 
     int arr[10];
     int Number;
-    printf("Enter Number\t\n");
-    scanf("%d",&Number);
-
-    
+    printf("Enter Number:\t\n");
+    scanf("%d", &Number);
 
     for (int i = 0; i < 10; i++)
     {
@@ -18,7 +16,7 @@ int main()
     for (int i = 0; i < 10; i++)
     {
 
-        printf("The value of %d X %d = %d\n",Number, (i + 1), arr[i]);
+        printf("The value of %d X %d = %d\n", Number, (i + 1), arr[i]);
     }
 
     return 0;
