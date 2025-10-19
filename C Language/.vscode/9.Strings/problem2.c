@@ -19,6 +19,7 @@ int strlen(char str[])
 int main()
 {
     char str[] = "Sankalp bhai";
+    // so this will return 12 as there are 12 characters in the string except '\0'.
 
     printf("%d\n", strlen(str));
 
