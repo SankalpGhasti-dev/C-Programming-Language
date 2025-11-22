@@ -22,10 +22,6 @@ This repository contains comprehensive resources, code samples, and projects to 
 2. Navigate to the C Language directory:
 3. Explore each folder for topic-wise explanations and sample codes.
 
-## Contribution
-
-Feel free to fork the repository, raise issues, or submit pull requests to contribute improvements and new content!
-
 ## Author
 
 Maintained by **Sankalp Ghasti**
